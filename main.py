@@ -1,12 +1,10 @@
 import streamlit as st
 import pickle
 #import sklearn
-import xgboost
+#import xgboost
 import pandas as pd
 import numpy as np
-import math
 
-from streamlit import color_picker
 
 pipe=pickle.load(open('pipe.pkl','rb'))
 df=pickle.load(open('df.pkl','rb'))
