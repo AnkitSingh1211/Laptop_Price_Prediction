@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
-#import sklearn
-#import xgboost
+import sklearn
+import xgboost
 import pandas as pd
 import numpy as np
 
